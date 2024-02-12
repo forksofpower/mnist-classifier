@@ -2,6 +2,10 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
+# TODO: duplicated from train
+mean_val = 0.1307
+standard_deviation_val = 0.3081
+
 # Convolutional Neural Network
 class CNN(nn.Module):
     def __init__(self, inference=False):
