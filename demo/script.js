@@ -13,7 +13,7 @@ let lastY = 0;
 // Load our model.
 const sess = new onnx.InferenceSession();
 const loadingModelPromise = sess.loadModel(
-  "./inference_onnx_model_improved_fashion.onnx"
+  "./models/mnist_inference_model.onnx"
 );
 
 // Add 'Draw a number here!' to the canvas.
