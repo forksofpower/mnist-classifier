@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "author": {
+    "name": "Patrick Jones",
+    "email": "patrickjones.pmj@gmail.com"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
