@@ -1,0 +1,6 @@
+# js
+demo/node_modules
+
+# python
+__pycache__
+.ipynb_checkpoints
